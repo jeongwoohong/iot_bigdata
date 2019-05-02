@@ -15,10 +15,12 @@ void main(){
 	unsigned short int unsigned_short_int_max=65535;
 	long int long_int_max= 2147483647;
 	unsigned long int unsigned_long_int_max=4294967295;
-	float float_max=-38;
-	double double_max=-308;
-	long double long_double_max=308;
-	
+
+
+	float f_test=1.12345678901234567890;
+	long double ld_test=1.12345678901234567890;
+
+
 	printf("int 최대값 : %d\n", int_max);
 	printf("unsigned int 최대값 :%u\n", unsigned_int_max);
 	printf("char 최대값 :%d\n",char_max);
@@ -33,9 +35,10 @@ void main(){
 	printf("unsigned short int 최대값 : %u\n",unsigned_short_int_max);
 	printf("long int 최대값 : %ld\n",long_int_max);
 	printf("unsigned long int 최대값 : %ld\n",unsigned_long_int_max);
-	printf("float 최대값 : %f\n",float_max);
-	printf("double 최대값 : %f\n",double_max);
-	printf("long double 최대값 : %lf\n",long_double_max);
+
+
+	printf("float 정밀도 : %.25f\n", f_test);
+	printf("long double 정밀도 : %.25lf\n", ld_test);
 	
 
 
