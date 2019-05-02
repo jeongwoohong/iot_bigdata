@@ -87,3 +87,39 @@ workspace         git client
          add
 test1.txt > test1.txt
 
+
+
+
+5/02
+
+			(+, -, *, /)
+
+	대입연산자	 산술연산자
+result 	     =      num1    + 	     num2
+
+	1.대입연산자(=)를 기준으로 우측항목 평가(Evaluation)
+						상수(constant)
+						변수(variable)
+						수식(Ex[ression)
+	2.우측항목은 왼쪽에서 오른쪽으로 순서대로 진행
+	3.우측항목에서 평가된 최종값이 좌측변수에 저장된다.
+
+
+
+연산자를 제외한 값(상수,변수)를 피연산자(operand)
+
+	
+
+
+				   부호가 있는
+수	정수형(Integral Type) int(signed int)
+		숫자	      unsinged int
+				부호 x
+
+
+
+	실수형 		float
+			    double
+	(floating type)		longdouble
+
+	
