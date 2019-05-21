@@ -1,59 +1,28 @@
-dev002 프로젝트 생성
-
-*** Push and Pul
+*** Push and Pull
 
 1. 두 번째 Local Repo clone (공동 작업을 테스트 하려고)
-$ cd /c/Git_Local_Repository
-$  git clone ssh://admin@USER9-PC:29418/dev002 dev002_it_train	(다른 디렉토리로 clone)
+$ cd ~/git
+$ git clone ssh://dev0NN@HRDC504-00:29418/dev0NNproj dev0NNproj2	(다른 디렉토리로 clone)
+==> 동일한 원격서버 프로젝트(Repository)를 로컬 PC의 다른 디렉토리로 복제하는 것임
+==> 주의!!!! 서버에 프로젝트(Repository)를 다시 생성하면 안됨
+$ git remote -v		(연결된 서버 Repo 확인)
 
-2. 학원 컴퓨터
-cd dev002_it_train
+2. 두 번째 Local Repo에서 새로운 파일 추가
+$ cd dev0NNproj2
+$ vi test2.txt
+$ git add test2.txt
+$ git commit -m "2nd developer"
 
-vi hello_world.c
-wq: <= 파일 생성
+3. 두 번쨰 Local Repo에서 서버로 Push
+$ git status
+$ git push origin master
+$ git status
 
-gitk --all&
-git add hello_world.c
-git commit -m "hello_world.c is created"
-git push origin master
+4. 첫 번째 Local Repo에서 Pull
+$ cd ~/git/dev0NNproj
+$ git remote -v		(연결된 서버 Repo 확인 - 두 개의 프로젝트가 동일)
+$ git fetch
+$ git status
+$ git pull
 
-3. 집 컴퓨터
-cd /c/Git_Local_Repository
-$ pwd
-/c/Git_Local_Repository
-git clone ssh://admin@USER9-PC:29418/dev002 dev002_home 디렉토리로 clone)
 
-cd dev002_home
-
-vi hello_world.c
-
-#include <stdion.h>
-
-void main(){
-        printf("Hello world!");
-}
-
-:wq
-cat hello_world.c
-
-$ git add hello_world.c
-warning: LF will be replaced by CRLF in hello_world.c.
-The file will have its original line endings in your working directory
-
-USER@USER9-PC MINGW64 /c/Git_Local_Repository/dev002_home (master)
-$ git commit -m "Add first printf"
-[master d568cdc] Add first printf
- 1 file changed, 5 insertions(+)
-
-USER@USER9-PC MINGW64 /c/Git_Local_Repository/dev002_home (master)
-$ gitk --all&
-[1] 4340 
-(학원 컴퓨터 로컬 레파지토리 히스토리와 다른 점을 확인한다.)
-
-git push origin master
-
-* 학원 컴퓨터
-git pull
-cat hello_world.c
-
-이후 hello_world.c 를 변경하여 push/pull을 반복해 본다.

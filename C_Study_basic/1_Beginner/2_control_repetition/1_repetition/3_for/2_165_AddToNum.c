@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+void main(){
+	int total = 0;
+	int i, num;
+
+	printf("0∫Œ≈Õ num±Ó¡ˆ¿« µ°º¿, num¿∫? ");
+	scanf("%d", &num);
+
+	for(i=0; i <= num; i++)
+	{
+		total += i;
+	}
+	printf("0∫Œ≈Õ %d±Ó¡ˆ µ°º¿ ∞·∞˙: %d", num, total);
+}
