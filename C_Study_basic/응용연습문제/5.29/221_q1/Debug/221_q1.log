@@ -1,0 +1,11 @@
+﻿  221_q1.cpp
+C:\iot_bigdata\C_Study_basic\응용연습문제\5.29\221_q1\221_q1.cpp(5,13): warning C4326:  'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+C:\iot_bigdata\C_Study_basic\응용연습문제\5.29\221_q1\221_q1.cpp(17,5): warning C4804:  '>=': 연산에 'bool' 형식을 사용하는 것은 안전하지 않습니다.
+C:\iot_bigdata\C_Study_basic\응용연습문제\5.29\221_q1\221_q1.cpp(17,46): warning C4804:  '>=': 연산에 'bool' 형식을 사용하는 것은 안전하지 않습니다.
+C:\iot_bigdata\C_Study_basic\응용연습문제\5.29\221_q1\221_q1.cpp(20,10): warning C4804:  '>=': 연산에 'bool' 형식을 사용하는 것은 안전하지 않습니다.
+C:\iot_bigdata\C_Study_basic\응용연습문제\5.29\221_q1\221_q1.cpp(20,55): warning C4804:  '>=': 연산에 'bool' 형식을 사용하는 것은 안전하지 않습니다.
+C:\iot_bigdata\C_Study_basic\응용연습문제\5.29\221_q1\221_q1.cpp(29,5): warning C4804:  '>=': 연산에 'bool' 형식을 사용하는 것은 안전하지 않습니다.
+C:\iot_bigdata\C_Study_basic\응용연습문제\5.29\221_q1\221_q1.cpp(29,46): warning C4804:  '>=': 연산에 'bool' 형식을 사용하는 것은 안전하지 않습니다.
+C:\iot_bigdata\C_Study_basic\응용연습문제\5.29\221_q1\221_q1.cpp(32,10): warning C4804:  '>=': 연산에 'bool' 형식을 사용하는 것은 안전하지 않습니다.
+C:\iot_bigdata\C_Study_basic\응용연습문제\5.29\221_q1\221_q1.cpp(32,55): warning C4804:  '>=': 연산에 'bool' 형식을 사용하는 것은 안전하지 않습니다.
+  221_q1.vcxproj -> C:\iot_bigdata\C_Study_basic\응용연습문제\5.29\Debug\221_q1.exe
