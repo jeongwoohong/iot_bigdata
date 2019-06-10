@@ -1,0 +1,3 @@
+﻿  249_q5.c
+C:\iot_bigdata\C_Study_basic\응용연습문제\5.29\249_q5\249_q5.c(10,9): warning C4477:  'scanf' : 서식 문자열 '%d'에 'int *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int'입니다.
+  249_q5.vcxproj -> C:\iot_bigdata\C_Study_basic\응용연습문제\5.29\Debug\249_q5 xxxx.exe
