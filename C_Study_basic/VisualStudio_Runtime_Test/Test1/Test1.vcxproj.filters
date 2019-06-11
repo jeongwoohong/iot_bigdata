@@ -15,13 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\8_development_by_team\2_583_main.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\8_development_by_team\3_583_func.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\8_development_by_team\4_583_num.c">
+    <ClCompile Include="..\..\..\..\cygwin64\home\USER\c_study\socket\win_socket_server2.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
